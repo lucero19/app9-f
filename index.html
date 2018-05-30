@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>}
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+</head>
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Geolocalizacion</h1>
+  </div>
+  
+  <div data-role="main" id="principal" data-theme="a">
+  <div class="ui-btn" id="posicion">posicion en msg. alerta </div>
+  <div class="ui-btn" id="watch">posicion en movimiento (watch)</div>
+  <div>
+  	<div>Latitud: <span id="latitud"></span></div>
+  	<div>Longitud: <span id="longitud"></span></div>
+  	<div>Altitud: <span id="altitud"></span></div>
+  	<div>Accuracy: <span id="accuracy"></span></div>
+  	<div>Alt. accuracy: <span id="aacuracy"></span></div>
+  	<div>Heading: <span id="headingg"></span></div>
+  	<div>Speed: <span id="speed"></span></div>
+  	<div>Timestamp: <span id="timestamp"></span></div>
+  </div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4>app9 Geolocalizacion </h4>
+  <h5>christian alexis lucero sanchez</h5>
+   <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+</body>
+</html>
